@@ -1,0 +1,220 @@
+[
+  {
+    "nome": "Mascaramento Social (Masking)",
+    "descricao": "O esforço exaustivo de usar uma máscara pesada 24h por dia para parecer 'normal'.",
+    "explicacao_literal": "É o ato de estudar e copiar expressões, filtrar reações naturais e forçar comportamentos sociais que não são intuitivos para você. Você gasta uma energia mental imensa para manter a fachada. Quando a máscara cai (geralmente em casa), você sente uma exaustão profunda e, às vezes, raiva ou tristeza por ter que se esforçar tanto.",
+    "data_criacao": "Comportamento",
+    "link": "https://www.youtube.com/watch?v=calmai1",
+    "tags": [
+      "Autismo",
+      "TDAH",
+      "Social",
+      "Exaustão"
+    ]
+  },
+  {
+    "nome": "Ruminação de Pensamentos",
+    "descricao": "O cérebro como um disco riscado que não para de tocar a mesma faixa de erro.",
+    "explicacao_literal": "Você fica repassando a mesma conversa, erro ou situação embaraçosa na sua cabeça várias vezes, tentando achar onde errou ou o que poderia ter dito diferente. Isso te impede de relaxar, focar no presente e é o maior ladrão de sono que existe.",
+    "data_criacao": "Pensamento",
+    "link": "https://www.youtube.com/watch?v=calmai2",
+    "tags": [
+      "Ansiedade",
+      "TDAH",
+      "Preocupação"
+    ]
+  },
+  {
+    "nome": "Paralisia de Escolha (Overwhelm)",
+    "descricao": "Congelar na frente do armário ou do menu por ter opções demais.",
+    "explicacao_literal": "Quando tarefas simples (como escolher o que vestir, qual e-mail responder primeiro ou qual série assistir) se tornam impossíveis. Há tantas opções, ou o peso de fazer a 'escolha errada' é tão grande, que sua mente trava. Você não consegue priorizar e acaba ficando parado, sem fazer nada.",
+    "data_criacao": "Comportamento",
+    "link": "https://www.youtube.com/watch?v=calmai3",
+    "tags": [
+      "TDAH",
+      "Execução",
+      "Ansiedade"
+    ]
+  },
+  {
+    "nome": "Burnout Sensorial",
+    "descricao": "Sentir que sua cabeça vai explodir com o barulho ou a luz excessiva.",
+    "explicacao_literal": "É uma dor física e mental causada pelo excesso de estímulos (luzes fortes, cheiros misturados, ruídos de fundo, tecidos ásperos). É como se todos os seus sensores estivessem no volume máximo e você sente a necessidade urgente de fugir, se isolar ou chorar, para proteger o sistema nervoso.",
+    "data_criacao": "Sensação",
+    "link": "https://www.youtube.com/watch?v=calmai4",
+    "tags": [
+      "Autismo",
+      "Sobrecarga",
+      "Hipersensibilidade"
+    ]
+  },
+  {
+    "nome": "Hiperfoco e Hiperfixação",
+    "descricao": "Encontrar um assunto novo e viver 72 horas seguidas só para ele.",
+    "explicacao_literal": "A capacidade intensa de mergulhar em um tópico ou atividade que te interessa (seja trabalho, um hobby ou um interesse especial) de forma que o tempo, a fome e outras responsabilidades desaparecem. É excelente para produtividade, mas pode gerar exaustão e negligência do mundo real depois que o foco termina.",
+    "data_criacao": "Comportamento",
+    "link": "https://www.youtube.com/watch?v=calmai5",
+    "tags": [
+      "TDAH",
+      "Autismo",
+      "Concentração"
+    ]
+  },
+  {
+    "nome": "Disforia Sensível à Rejeição (RSD)",
+    "descricao": "Uma picada de abelha emocional que vira uma febre corporal.",
+    "explicacao_literal": "Sentir que uma crítica, um tom de voz rude ou uma desaprovação percebida (mesmo que seja só imaginada) é uma dor física ou um ataque catastrófico. A emoção é desproporcional, gerando vergonha intensa, choro, ou uma raiva imediata, dificultando a recuperação emocional.",
+    "data_criacao": "Emoção",
+    "link": "https://www.youtube.com/watch?v=calmai6",
+    "tags": [
+      "TDAH",
+      "Emoção",
+      "Vulnerabilidade"
+    ]
+  },
+  {
+    "nome": "Ansiedade Social",
+    "descricao": "A sensação de que todos estão olhando e julgando cada movimento seu.",
+    "explicacao_literal": "Antes de um evento social, você sente náuseas ou palpitações. Durante, você fica monitorando a si mesmo e o ambiente, sentindo que precisa 'atuar' ou 'performar'. Você sai esgotado e repassando tudo que disse, convencido de que fez algo errado ou foi inadequado.",
+    "data_criacao": "Emoção",
+    "link": "https://www.youtube.com/watch?v=calmai7",
+    "tags": [
+      "Social",
+      "Ansiedade",
+      "Mascaramento"
+    ]
+  },
+  {
+    "nome": "Catastrofização",
+    "descricao": "Ir do 'esqueci a chave' para 'vou perder o emprego e morar na rua' em 3 segundos.",
+    "explicacao_literal": "A tendência de pular automaticamente para o pior cenário possível em qualquer situação de incerteza ou erro. Um pequeno contratempo vira um desastre global na sua cabeça. Você não consegue ver os passos intermediários, só o resultado final destrutivo.",
+    "data_criacao": "Pensamento",
+    "link": "https://www.youtube.com/watch?v=calmai8",
+    "tags": [
+      "Ansiedade",
+      "Pensamento",
+      "Preocupação"
+    ]
+  },
+  {
+    "nome": "Sobrecarga Cognitiva",
+    "descricao": "A memória RAM do cérebro travou de tanta aba aberta.",
+    "explicacao_literal": "Sentir o cérebro pesado e lento. Você está processando muitas informações ao mesmo tempo (o que fazer, o que sente, o que disseram, as luzes piscando) e a capacidade de pensar claramente, tomar decisões ou executar tarefas simples some. É o famoso 'apagão' mental.",
+    "data_criacao": "Pensamento",
+    "link": "https://www.youtube.com/watch?v=calmai9",
+    "tags": [
+      "TDAH",
+      "Autismo",
+      "Sobrecarga"
+    ]
+  },
+  {
+    "nome": "Desregulação Emocional",
+    "descricao": "O volume das emoções não tem botão de ajuste: é sempre 0 ou 100.",
+    "explicacao_literal": "Sua reação emocional é muito maior, mais intensa ou mais longa do que a situação exige. Uma irritação leve vira uma explosão de raiva, ou uma tristeza vira desespero total. Depois que a emoção ativou, é extremamente difícil acalmar o corpo e a mente rapidamente.",
+    "data_criacao": "Emoção",
+    "link": "https://www.youtube.com/watch?v=calmai10",
+    "tags": [
+      "TDAH",
+      "Emoção",
+      "Impulsividade"
+    ]
+  },
+  {
+    "nome": "Pensamento 8 ou 80",
+    "descricao": "A vida só tem preto e branco, sem tons de cinza ou meio-termo.",
+    "explicacao_literal": "Você só consegue ver as coisas em extremos: sucesso total ou fracasso completo, perfeito ou inútil, amar ou odiar. Não há espaço para 'bom o suficiente' ou 'cometi um erro, mas sou capaz'. Isso torna erros pequenos em provas de que você é um fracasso completo.",
+    "data_criacao": "Pensamento",
+    "link": "https://www.youtube.com/watch?v=calmai11",
+    "tags": [
+      "TCC",
+      "Cognitivo",
+      "Autocrítica"
+    ]
+  },
+  {
+    "nome": "Resistência a Demandas",
+    "descricao": "A sensação irresistível de 'não' quando te pedem para fazer algo, mesmo que você queira fazer.",
+    "explicacao_literal": "É uma aversão intensa a qualquer pedido, expectativa ou obrigação externa ou interna. É como se sua autonomia estivesse sendo ameaçada, e o corpo se recusa a cooperar. Isso gera procrastinação, conflitos e muita culpa, pois você fica 'preso' sem conseguir agir.",
+    "data_criacao": "Comportamento",
+    "link": "https://www.youtube.com/watch?v=calmai12",
+    "tags": [
+      "Autismo",
+      "TDAH",
+      "Execução",
+      "PDA"
+    ]
+  },
+  {
+    "nome": "Queda Pós-Hiperfoco",
+    "descricao": "O esgotamento que vem depois que a bateria social ou mental zera.",
+    "explicacao_literal": "Após passar horas em hiperfoco, trabalhando intensamente, ou depois de um evento social longo (onde houve mascaramento), vem um sentimento profundo de exaustão física, irritabilidade e tristeza. O corpo e a mente estão cobrando o preço do esforço excessivo e você precisa de isolamento total para se recuperar.",
+    "data_criacao": "Emoção",
+    "link": "https://www.youtube.com/watch?v=calmai13",
+    "tags": [
+      "Autismo",
+      "TDAH",
+      "Exaustão"
+    ]
+  },
+  {
+    "nome": "Inércia de Início",
+    "descricao": "A dificuldade de apertar o botão 'Start' da vida, mesmo sabendo o que fazer.",
+    "explicacao_literal": "Você sabe exatamente o que precisa fazer e tem a intenção de começar (ex: lavar a louça ou fazer o relatório), mas existe uma barreira invisível que impede o movimento inicial. Você fica horas 'aquecendo', procrastinando ou fazendo tarefas irrelevantes, até que a pressão do prazo se torna o único motor que te move.",
+    "data_criacao": "Comportamento",
+    "link": "https://www.youtube.com/watch?v=calmai14",
+    "tags": [
+      "TDAH",
+      "Execução",
+      "Procrastinação"
+    ]
+  },
+  {
+    "nome": "Hipersensibilidade Interna (Interoceptiva)",
+    "descricao": "Sentir demais o que acontece dentro do corpo.",
+    "explicacao_literal": "Prestar atenção exagerada aos sinais internos do corpo: batimento cardíaco acelerado, digestão, leve dor de cabeça, formigamento. Isso pode intensificar a ansiedade, pois qualquer sintoma físico é rapidamente interpretado como um perigo, doença grave ou um ataque de pânico iminente, alimentando a preocupação.",
+    "data_criacao": "Sensação",
+    "link": "https://www.youtube.com/watch?v=calmai15",
+    "tags": [
+      "Ansiedade",
+      "Autismo",
+      "Sensação"
+    ]
+  },
+  {
+    "nome": "Cegueira Temporal (Time Blindness)",
+    "descricao": "O tempo não existe, só existe o 'Agora' e o 'Não Agora'.",
+    "explicacao_literal": "Dificuldade extrema em estimar quanto tempo as tarefas vão levar, quanto tempo já passou, ou a ordem sequencial dos eventos. Dez minutos parecem duas horas e duas horas parecem dez minutos. Isso faz com que os prazos sejam sempre uma surpresa e o planejamento futuro pareça impossível ou abstrato.",
+    "data_criacao": "Pensamento",
+    "link": "https://www.youtube.com/watch?v=calmai16",
+    "tags": [
+      "TDAH",
+      "Execução",
+      "Organização"
+    ]
+  },
+  {
+    "nome": "Profecia Autocumprida",
+    "descricao": "Acreditar que vai falhar e agir de um jeito que garante a falha.",
+    "explicacao_literal": "Você tem uma crença muito forte e negativa sobre si mesmo ou uma situação (ex: 'ninguém vai me entender' ou 'eu sou burro demais para esse trabalho'). Essa crença te leva a se comportar de forma a confirmá-la, como evitar perguntas ou se isolar. No final, o resultado confirma a crença inicial, criando um ciclo vicioso de autossabotagem.",
+    "data_criacao": "Pensamento",
+    "link": "https://www.youtube.com/watch?v=calmai17",
+    "tags": [
+      "TCC",
+      "Cognitivo",
+      "Autocrítica"
+    ]
+  },
+  {
+    "nome": "Necessidade de Previsibilidade",
+    "descricao": "Uma mudança de planos mínima causa um terremoto interno.",
+    "explicacao_literal": "O cérebro neurodivergente usa a rotina e a previsibilidade como um mapa seguro para navegar o mundo e economizar energia. Quando esse mapa é alterado (atraso, cancelamento de compromisso, ou uma surpresa não planejada), o corpo reage com ansiedade, irritação ou pânico, porque precisa recalcular todos os passos de repente, exigindo muito esforço mental extra.",
+    "data_criacao": "Emoção",
+    "link": "https://www.youtube.com/watch?v=calmai18",
+    "tags": [
+      "Autismo",
+      "Ansiedade",
+      "Rotina"
+    ]
+  }
+]

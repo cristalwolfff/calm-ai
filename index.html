@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calm.Aí - Ferramenta de apoio emocional baseada em TCC para neurodivergentes.">
+    <link rel="stylesheet" href="style.css">
+    <title>Calm.Aí - Suporte de bolso</title>
+</head>
+
+<body>
+
+    <nav class="menu-topo">
+        <button onclick="abrirModalSobre()">Sobre o Projeto 💡</button>
+        <button onclick="abrirModalTCC()">O que é TCC? 🧠</button>
+        <button onclick="abrirModalContato()">Quem sou eu 👩‍💻</button>
+    </nav>
+
+    <header>
+        <h1 class="sr-only">Calm.Aí - Ferramenta de Regulação Emocional para Neurodivergentes</h1>
+        
+        <img src="logo-calmai.png" 
+             alt="Logo Calm.Aí: Lobo místico meditando com serenidade" 
+             class="logo-principal"
+             title="Calm.Aí - Página Inicial">
+
+        <div class="search-bar">
+            <input type="text" 
+                   placeholder="O que você está sentindo? (ex: ansiedade, foco...)"
+                   oninput="iniciarBusca()"
+                   aria-label="Campo de busca de sentimentos">
+            <button id="botao-busca">Me ajude 🐾</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="card-container" aria-live="polite">
+            </section>
+    </main>
+
+    <footer>
+        <p class="aviso-legal">
+            ⚠️ Este projeto tem caráter educativo e não substitui terapia profissional. <br>
+            Em caso de emergência, ligue <strong>188 (CVV)</strong>.
+        </p>
+        
+        <div class="divisor"></div>
+        
+        <p>Feito com 💜, poeira estelar, ciência e IA.</p>
+        
+        <div class="creditos">
+            <p>Desenvolvido por <strong>Cristalwolf</strong></p>
+            <ul>
+                <li><a href="https://github.com/cristalwolfff" target="_blank">GitHub 🐱</a></li>
+                <li>•</li>
+                <li><a href="https://www.linkedin.com/in/cristalwolf-dias/" target="_blank">LinkedIn 💼</a></li>
+                <li>•</li>
+                <li><a href="https://www.notion.so/Portf-lio-Cristalwolf-Dias-2ae49014824b8094a93cc97ca5eced63" target="_blank">Portfólio 📝</a></li>
+                <li>•</li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Imersão Alura</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="modal-overlay" class="modal-hidden">
+        <div class="modal-content">
+            <span id="fechar-modal" onclick="fecharModal()">&times;</span>
+            <h2 id="modal-titulo">Título</h2>
+            <p id="modal-categoria">Categoria</p>
+            <div class="modal-corpo">
+                <h3>O que é isso realmente? (Explicação Literal)</h3>
+                <p id="modal-texto">Texto...</p>
+            </div>
+            <button onclick="fecharModal()" class="botao-fechar">Entendi</button>
+        </div>
+    </div>
+
+    <div id="modal-sobre" class="modal-hidden">
+        <div class="modal-content">
+            <span class="botao-fechar-x" onclick="fecharModalSobre()">&times;</span>
+            <h2>Sobre o Calm.Aí 💜</h2>
+
+            <div style="text-align: left; line-height: 1.6; color: #4e342e;">
+                <p><strong>Mais que um app, um abraço digital.</strong></p>
+                <p>Este projeto foi desenvolvido para a <strong>Imersão Dev com Google Gemini 2025</strong> da Alura.</p>
+
+                <h3 style="color: var(--primary-color); margin-top: 1rem;">O Propósito</h3>
+                <p>O nome <em>Calm.Aí</em> é uma brincadeira com "Calma aí" e "AI". Como pessoa <strong>autista e com TDAH</strong>, sei como é difícil encontrar o eixo em momentos de crise.</p>
+                <p>Criei este projeto para ser uma "toca segura": um lugar onde você diz o que sente, e a tecnologia te devolve uma técnica de TCC validada.</p>
+
+                <h3 style="color: var(--primary-color); margin-top: 1rem;">Tecnologia de Bastidores</h3>
+                <ul style="padding-left: 20px;">
+                    <li><strong>Front-end:</strong> HTML5, CSS3 (Sem frameworks) e JS Puro.</li>
+                    <li><strong>Back-end:</strong> Node.js (Geração de dados).</li>
+                    <li><strong>Inteligência:</strong> Google Gemini API.</li>
+                </ul>
+
+                <p style="background: #fff3e0; padding: 10px; border-radius: 10px; margin-top: 15px; font-size: 0.9rem;">
+                    ⚠️ <strong>Aviso:</strong> Eu sou desenvolvedora, não psicóloga. Este projeto tem caráter educativo.
+                </p>
+            </div>
+            <button onclick="fecharModalSobre()" class="botao-fechar">Legal, entendi!</button>
+        </div>
+    </div>
+
+    <div id="modal-contato" class="modal-hidden">
+        <div class="modal-content">
+            <span class="botao-fechar-x" onclick="fecharModalContato()">&times;</span>
+            <h2>Olá, eu sou a Cristalwolf! 🐺</h2>
+            <p style="margin-bottom: 1.5rem;">
+                Sou Desenvolvedora Front-end apaixonada por unir <strong>tecnologia, arte e neurodiversidade</strong>.
+            </p>
+            <div style="background: var(--accent-green); padding: 1.5rem; border-radius: 20px; text-align: center;">
+                <h3 style="margin-top: 0; color: #00695c;">Vamos conectar?</h3>
+                <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 10px; margin-top: 1rem;">
+                    <li>📧 <a href="mailto:cristalwolf.artista@gmail.com" style="color: var(--text-color); font-weight: bold;">cristalwolf.artista@gmail.com</a></li>
+                    <li>💼 <a href="https://www.linkedin.com/in/cristalwolf-dias/" target="_blank" style="color: var(--primary-color); font-weight: bold;">Meu LinkedIn</a></li>
+                    <li>🐱 <a href="https://github.com/cristalwolfff" target="_blank" style="color: var(--primary-color); font-weight: bold;">Meu GitHub</a></li>
+                    <li>📝 <a href="https://www.notion.so/Portf-lio-Cristalwolf-Dias-2ae49014824b8094a93cc97ca5eced63" target="_blank" style="color: var(--primary-color); font-weight: bold;">Meu Portfólio</a></li>
+                </ul>
+            </div>
+            <button onclick="fecharModalContato()" class="botao-fechar">Fechar</button>
+        </div>
+    </div>
+
+    <div id="modal-tcc" class="modal-hidden">
+        <div class="modal-content">
+            <span class="botao-fechar-x" onclick="fecharModalTCC()">&times;</span>
+            <h2>O que é TCC? 🧠</h2>
+            <p id="modal-categoria" style="background: #e1bee7; color: #4a148c;">Ciência Simples</p>
+            <div style="text-align: left; line-height: 1.6; color: #4e342e;">
+                <p><strong>TCC</strong> significa <em>Terapia Cognitivo-Comportamental</em>. É baseada em ciência e focada no presente.</p>
+                <h3 style="color: var(--primary-color); margin-top: 1rem;">Como funciona?</h3>
+                <p>A ideia é: <strong>Não são as situações que nos chateiam, mas sim o que pensamos sobre elas.</strong></p>
+                <div style="background: #f3e5f5; padding: 15px; border-radius: 15px; margin: 10px 0;">
+                    <p style="margin: 0;">👀 <strong>Exemplo prático:</strong></p>
+                    <ul style="margin: 5px 0 0 0; padding-left: 20px;">
+                        <li><strong>Pensamento Ansioso:</strong> "Ele me odeia." ➔ <em>Tristeza.</em></li>
+                        <li><strong>Pensamento TCC:</strong> "Ele deve estar ocupado." ➔ <em>Calma.</em></li>
+                    </ul>
+                </div>
+            </div>
+            <button onclick="fecharModalTCC()" class="botao-fechar">Entendi, faz sentido!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
