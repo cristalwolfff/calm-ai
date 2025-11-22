@@ -13,7 +13,7 @@ O **Calm.Aí** é uma ferramenta de regulação emocional desenvolvida durante a
 O objetivo é servir como uma "toca segura" para pessoas neurodivergentes (**Autismo, TDAH**) ou ansiosas. Diferente de buscas genéricas, o Calm.Aí oferece um ambiente controlado, sem distrações, onde o usuário descreve o que está sentindo e recebe imediatamente uma técnica de **TCC (Terapia Cognitivo-Comportamental)** validada para aquele sintoma.
 
 ### 🎯 O Problema Real
-Em momentos de crise (meltdown, paralisia executiva ou ataque de pânico), é difícil lembrar de técnicas de respiração ou racionalização. A busca no Google muitas vezes piora a ansiedade com excesso de informações.
+Em momentos de crise (meltdown, paralisia executiva ou ataque de pânico), é difícil lembrar de técnicas de respiração ou racionalização. A busca no Google muitas vezes piora a ansiedade com excesso de informações desorganizadas.
 
 ### 🚀 A Solução
 Uma interface minimalista, acolhedora e direta, que traduz sentimentos complexos em ações simples de alívio, usando uma base de conhecimento curada por Inteligência Artificial.
@@ -28,7 +28,7 @@ Este projeto foi construído seguindo rigorosamente as limitações do regulamen
 | :--- | :--- | :--- |
 | **HTML5 Semântico** | Estrutura e Acessibilidade | Garantir que leitores de tela e motores de busca entendam o conteúdo (uso de `<article>`, `<nav>`, `sr-only`). |
 | **CSS3 (Vanilla)** | Estilização e Animações | Criar a identidade "Kawaii Cósmico" leve e performática, sem o peso de bibliotecas como Bootstrap ou Tailwind. |
-| **JavaScript (ES6+)** | Lógica e Interatividade | Manipulação do DOM, busca dinâmica e controle de Modais sem dependências externas. |
+| **JavaScript (ES6+)** | Lógica e Interatividade | Manipulação do DOM, busca dinâmica, controle de Modais e lógica de fallback de pesquisa. |
 | **Node.js** | Back-end (Geração de Dados) | Script (`gerador.js`) que atua como "Cozinha de Dados", conectando-se à API do Google para criar o conteúdo. |
 | **Google Gemini API** | Inteligência Artificial | O "Cérebro" do projeto. Usada para gerar as psicoeducações, descrições literais e categorização dos sintomas. |
 
@@ -50,12 +50,14 @@ Para garantir a qualidade e a segurança das informações, utilizei técnicas a
 
 ## ✨ Funcionalidades Principais
 
-* **Busca Inteligente:** Pesquisa em tempo real que entende não só o nome do sintoma, mas também "tags ocultas" geradas pela IA (ex: se você digitar "procrastinação", ele acha "Inércia de início").
+* **Busca Local Inteligente:** Pesquisa em tempo real que entende não só o nome do sintoma, mas também "tags ocultas" geradas pela IA (ex: se você digitar "procrastinação", ele acha "Inércia de Início").
+* **Rede de Segurança (Busca Expandida):**
+    * Sabendo que não é possível prever todas as dores humanas em uma base local limitada, criamos um mecanismo de resgate.
+    * Se o usuário digitar algo que não existe na nossa base (ex: "Luto"), o botão **"Me ajude 🐾"** realiza uma busca estruturada no Google (`Como lidar com [termo] usando TCC`). Isso garante que o usuário nunca fique desamparado ou sem resposta em um momento de fragilidade.
 * **Modais de Acessibilidade:**
     * **Explicação Literal:** Um botão "Saber Mais" que abre uma janela com descrição direta do sintoma, sem metáforas.
     * **Educação em TCC:** Explicação didática sobre o que é a terapia para desmistificar o tratamento.
 * **Link Seguro (YouTube):** O sistema gera links de busca dinâmicos para garantir que o usuário sempre encontre vídeos de ajuda atualizados, evitando links quebrados.
-* **Design Sensorial:** Paleta de cores calmas (Roxo/Menta/Creme) e animações suaves (flutuação) pensadas para não sobrecarregar os sentidos (low sensory load).
 
 ---
 
@@ -89,7 +91,7 @@ Este projeto é muito pessoal. Como desenvolvedora autista e TDAH, criei a ferra
 
 * **Desenvolvimento e Design:** [Cristalwolf](https://www.linkedin.com/in/cristalwolf-dias/)
 * **Mentoria e Realização:** Alura + Google (Imersão Dev)
-* **Apoio Técnico:** Google Gemini 2.5 Flash
+* **Apoio Técnico:** Google Gemini 1.5 Pro
 
 ---
 
