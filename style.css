@@ -312,6 +312,14 @@ article a.link-youtube:hover {
     margin-bottom: 1rem;
 }
 
+.modal-content a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
+    display: inline-block;
+}
+
 .botao-fechar {
     margin-top: 2rem;
     width: 100%;
