@@ -10,6 +10,11 @@
 
 O **Calm.Aí** é uma ferramenta de regulação emocional desenvolvida durante a **Imersão Dev com Google Gemini 2025** (Alura + Google).
 
+### 🎨 O Nome: Um Trocadilho com Propósito
+A identidade **Calm.Aí** nasce da fusão de dois conceitos:
+1.  **"Calma aí":** A expressão brasileira que usamos para pedir uma pausa, um respiro, um momento para desacelerar o mundo lá fora.
+2.  **".AI" (Artificial Intelligence):** A tecnologia invisível que torna esse acolhimento possível, personalizado e inteligente.
+
 O objetivo é servir como uma "toca segura" para pessoas neurodivergentes (**Autismo, TDAH**) ou ansiosas. Diferente de buscas genéricas, o Calm.Aí oferece um ambiente controlado, sem distrações, onde o usuário descreve o que está sentindo e recebe imediatamente uma técnica de **TCC (Terapia Cognitivo-Comportamental)** validada para aquele sintoma.
 
 ### 🎯 O Problema Real
