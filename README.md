@@ -1,103 +1,108 @@
-# Calm.Aí 🐾💜 - Suporte de Bolso para Mentes Inquietas
+# 🐾 Calm.Aí: Neuro-Inclusive Emotional Regulation Engine
+*(Powered by Google Gemini & CBT Principles)*
+
+![Google Gemini](https://img.shields.io/badge/AI_Core-Google_Gemini_1.5-8E75B2?style=for-the-badge&logo=google-bard&logoColor=white)
+![Node.js](https://img.shields.io/badge/Backend-Node.js_Scripting-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Vanilla JS](https://img.shields.io/badge/Frontend-Vanilla_JS_(ES6+)-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Accessibility](https://img.shields.io/badge/Focus-Neurodiversity_&_A11y-FF69B4?style=for-the-badge&logo=accessibility&logoColor=white)
+
+> **"More than a website, a digital embrace."**
+> *Winner/Featured Project at Alura + Google AI Immersion 2025.*
 
 ![Logo Calm.Aí](logo-calmai.png)
 
-> **"Mais que um site, um abraço digital."**
+---
+
+## 💡 The Concept
+**Calm.Aí** is an emotional regulation tool designed specifically for **Neurodivergent minds (Autism & ADHD)**.
+
+### 🎨 The Name Strategy
+The name is a wordplay fusing two concepts:
+1.  **"Calma aí":** Brazilian Portuguese for *"Hold on"* or *"Calm down"* — a verbal anchor for grounding.
+2.  **".AI":** The invisible technology that makes this support personalized and scalable.
+
+### 🎯 The Real-World Problem
+During a meltdown, executive dysfunction, or panic attack, retrieving coping mechanisms from memory is nearly impossible. Traditional Google searches exacerbate anxiety with information overload and cluttered UIs.
+
+### 🚀 The Solution
+A distraction-free, sensory-friendly interface that translates complex feelings into immediate, actionable **CBT (Cognitive Behavioral Therapy)** techniques using a curated AI-generated knowledge base.
 
 ---
 
-## 💡 Sobre o Projeto
+## 🧠 AI Engineering & Prompt Architecture
+The AI didn't just write code; it acted as a **Co-Author and Clinical Consultant**. The entire database (`data.json`) was synthesized via Google Gemini using a custom Node.js pipeline.
 
-O **Calm.Aí** é uma ferramenta de regulação emocional desenvolvida durante a **Imersão Dev com Google Gemini 2025** (Alura + Google).
+### Advanced Prompt Engineering Techniques:
+To ensure safety and reliability for vulnerable users, I implemented a robust prompt architecture in `gerador.js`:
 
-### 🎨 O Nome: Um Trocadilho com Propósito
-A identidade **Calm.Aí** nasce da fusão de dois conceitos:
-1.  **"Calma aí":** A expressão brasileira que usamos para pedir uma pausa, um respiro, um momento para desacelerar o mundo lá fora.
-2.  **".AI" (Artificial Intelligence):** A tecnologia invisível que torna esse acolhimento possível, personalizado e inteligente.
-
-O objetivo é servir como uma "toca segura" para pessoas neurodivergentes (**Autismo, TDAH**) ou ansiosas. Diferente de buscas genéricas, o Calm.Aí oferece um ambiente controlado, sem distrações, onde o usuário descreve o que está sentindo e recebe imediatamente uma técnica de **TCC (Terapia Cognitivo-Comportamental)** validada para aquele sintoma.
-
-### 🎯 O Problema Real
-Em momentos de crise (meltdown, paralisia executiva ou ataque de pânico), é difícil lembrar de técnicas de respiração ou racionalização. A busca no Google muitas vezes piora a ansiedade com excesso de informações desorganizadas.
-
-### 🚀 A Solução
-Uma interface minimalista, acolhedora e direta, que traduz sentimentos complexos em ações simples de alívio, usando uma base de conhecimento curada por Inteligência Artificial.
+1.  **Therapeutic Persona Injection:** Configured the LLM to adopt a "CBT Specialist" persona with a warm, grounding tone, strictly avoiding cold clinical jargon.
+2.  **JSON Schema Enforcement:** "Locked" the model's output to a strict JSON structure to prevent frontend breakage and hallucination of data fields.
+3.  **Cognitive Accessibility Layer:** Created a specific prompt instruction (`literal_explanation`) forcing the AI to describe symptoms **literally** (without metaphors). This is a critical feature for Autistic users who may struggle with figurative language.
+4.  **Safety Guardrails:** Instructions to detect self-harm keywords and redirect to emergency protocols immediately.
 
 ---
 
-## 🛠️ Tecnologias e Decisões Técnicas
+## 🛠️ Tech Stack & Decisions
+Built under strict hackathon constraints, this project focuses on **Web Fundamentals** and **Performance** over heavy frameworks.
 
-Este projeto foi construído seguindo rigorosamente as limitações do regulamento da Imersão, focando na **base sólida da web** em vez de frameworks complexos.
-
-| Tecnologia | Função no Projeto | Por que foi escolhida? |
+| Tech | Role in Architecture | Engineering Decision |
 | :--- | :--- | :--- |
-| **HTML5 Semântico** | Estrutura e Acessibilidade | Garantir que leitores de tela e motores de busca entendam o conteúdo (uso de `<article>`, `<nav>`, `sr-only`). |
-| **CSS3 (Vanilla)** | Estilização e Animações | Criar a identidade "Kawaii Cósmico" leve e performática, sem o peso de bibliotecas como Bootstrap ou Tailwind. |
-| **JavaScript (ES6+)** | Lógica e Interatividade | Manipulação do DOM, busca dinâmica, controle de Modais e lógica de fallback de pesquisa. |
-| **Node.js** | Back-end (Geração de Dados) | Script (`gerador.js`) que atua como "Cozinha de Dados", conectando-se à API do Google para criar o conteúdo. |
-| **Google Gemini API** | Inteligência Artificial | O "Cérebro" do projeto. Usada para gerar as psicoeducações, descrições literais e categorização dos sintomas. |
+| **Semantic HTML5** | Structure | Full A11y (Accessibility) compliance for screen readers (`sr-only`, `<article>`, ARIA labels). |
+| **Vanilla CSS3** | UI/UX | Lightweight "Cosmic Kawaii" aesthetic without the bloat of libraries (Bootstrap/Tailwind). |
+| **JavaScript (ES6+)** | Logic | DOM manipulation, modal state management, and fuzzy search logic. |
+| **Node.js** | Data Pipeline | The "Data Kitchen" script that connects to Gemini API to generate/update content. |
+| **Gemini API** | Intelligence | Used for generating psycho-education, literal descriptions, and symptom tagging. |
 
 ---
 
-## 🧠 A Mágica da IA e Engenharia de Prompt
+## ✨ Key Features
 
-A Inteligência Artificial não apenas "escreveu código", ela atuou como **Co-autora e Psicóloga Auxiliar**. Todo o conteúdo da base de dados (`data.json`) foi gerado via **Google Gemini** através de scripts em Node.js.
-
-### Destaques da Engenharia de Prompt:
-Para garantir a qualidade e a segurança das informações, utilizei técnicas avançadas de prompt no arquivo `gerador.js`:
-
-1.  **Persona Adotada:** A IA foi instruída a atuar como uma especialista em TCC e Neurodivergência, com tom de voz "amigo e acolhedor", evitando termos clínicos frios.
-2.  **Schema Trancado:** Forçamos a IA a responder em um formato JSON rígido, garantindo que o Front-end nunca quebre.
-3.  **Acessibilidade Cognitiva:** Criamos um campo específico no prompt (`explicacao_literal`) instruindo a IA a descrever sintomas de forma literal e sem metáforas, pensando especificamente no público autista que pode ter dificuldade com figuras de linguagem.
-4.  **Design Generativo:** A identidade visual (Logo do Lobo Místico) também foi criada com auxílio de IA Generativa de imagem.
-
----
-
-## ✨ Funcionalidades Principais
-
-* **Busca Local Inteligente:** Pesquisa em tempo real que entende não só o nome do sintoma, mas também "tags ocultas" geradas pela IA (ex: se você digitar "procrastinação", ele acha "Inércia de Início").
-* **Rede de Segurança (Busca Expandida):**
-    * Sabendo que não é possível prever todas as dores humanas em uma base local limitada, criamos um mecanismo de resgate.
-    * Se o usuário digitar algo que não existe na nossa base (ex: "Luto"), o botão **"Me ajude 🐾"** realiza uma busca estruturada no Google (`Como lidar com [termo] usando TCC`). Isso garante que o usuário nunca fique desamparado ou sem resposta em um momento de fragilidade.
-* **Modais de Acessibilidade:**
-    * **Explicação Literal:** Um botão "Saber Mais" que abre uma janela com descrição direta do sintoma, sem metáforas.
-    * **Educação em TCC:** Explicação didática sobre o que é a terapia para desmistificar o tratamento.
-* **Link Seguro (YouTube):** O sistema gera links de busca dinâmicos para garantir que o usuário sempre encontre vídeos de ajuda atualizados, evitando links quebrados.
+* **Semantic "Hidden Tag" Search:** The search engine finds results not just by name, but by related feelings generated by AI (e.g., searching "Procrastination" finds "Task Paralysis").
+* **Fallback Safety Net:**
+    * Recognizing that a local DB cannot cover every human emotion, I engineered a fallback mechanism.
+    * If a query yields 0 results (e.g., "Grief"), the **"Help Me 🐾"** button dynamically constructs a structured Google Query (`How to cope with [term] using CBT`), ensuring the user is never left without a path forward.
+* **Cognitive Accessibility Modals:**
+    * **"Literal Mode":** A dedicated feature that strips away metaphors for clear, direct communication.
+    * **Psycho-education:** Micro-learning modules explaining *why* the body is reacting that way.
+* **Dynamic Media Links:** Generates context-aware YouTube search links to find up-to-date video resources.
 
 ---
 
-## 🚀 Como Rodar o Projeto Localmente
+## 🚀 How to Run Locally
 
-Se você quiser testar a geração de dados com a IA na sua máquina:
+To test the AI Data Generation pipeline on your machine:
 
-1.  **Clone o repositório:**
+1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/calm-ai.git](https://github.com/SEU-USUARIO/calm-ai.git)
+    git clone [https://github.com/YOUR-USERNAME/calm-ai.git](https://github.com/YOUR-USERNAME/calm-ai.git)
     ```
-2.  **Instale as dependências (apenas para o gerador):**
+2.  **Install Dependencies (Generator only):**
     ```bash
     npm install
     ```
-3.  **Configure a API Key:**
-    * Crie um arquivo `.env` na raiz.
-    * Adicione: `GEMINI_API_KEY="SUA_CHAVE_DO_GOOGLE_AI_STUDIO"`.
-4.  **Gere novos dados (Opcional):**
+3.  **Configure API Key:**
+    * Create a `.env` file in the root.
+    * Add: `GEMINI_API_KEY="YOUR_GOOGLE_AI_STUDIO_KEY"`.
+4.  **Generate Fresh Data (Optional):**
     ```bash
     node gerador.js
     ```
-5.  **Abra o site:**
-    * Basta abrir o arquivo `index.html` no seu navegador.
+5.  **Run the App:**
+    * Simply open `index.html` in your browser.
 
 ---
 
-## 💜 Créditos e Agradecimentos
+## 💜 Credits & Context
 
-Este projeto é muito pessoal. Como desenvolvedora autista e TDAH, criei a ferramenta que eu gostaria de ter nos meus dias difíceis.
+This project is deeply personal. As an **Autistic & ADHD Engineer**, I built the tool I wish I had during my own difficult days.
 
-* **Desenvolvimento e Design:** [Cristalwolf](https://www.linkedin.com/in/cristalwolf-dias/)
-* **Mentoria e Realização:** Alura + Google (Imersão Dev)
-* **Apoio Técnico:** Google Gemini 1.5 Pro
+* **Architecture & Design:** [Cristalwolf](https://github.com/cristalwolfff)
+* **Hackathon Host:** Alura + Google
+* **AI Partner:** Google Gemini 1.5 Pro
 
 ---
 
-> ⚠️ **Aviso Ético:** Este projeto tem caráter educativo e de suporte, baseado em técnicas de TCC. Ele **não substitui** terapia profissional ou aconselhamento médico. Em caso de crise, ligue 188 (CVV).
+> ⚠️ **Ethical Disclaimer:** This project is for educational and supportive purposes based on CBT techniques. It **does not replace** professional therapy or medical advice.
+
+---
+*Developed by [Cristalwolf](https://github.com/cristalwolfff) // AI Solutions Architect*
