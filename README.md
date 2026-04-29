@@ -99,3 +99,15 @@ Este projeto é profundamente pessoal. Como uma **Engenheira Autista e TDAH**, u
 ⚠️ **Aviso Ético:** Este projeto possui fins educacionais e de suporte, baseado em técnicas comprovadas de Terapia Cognitivo-Comportamental. Ele **não substitui** acompanhamento médico ou terapia profissional.
 
 *Desenvolvido por [Cristalwolf](https://github.com/cristalwolfff) // Business Technologist & AI Engineer*
+
+### 🤝 Vamos Transformar a sua Operação
+
+Estou disponível para consultoria freelance, arquitetura de sistemas e implementação técnica. Se você tem um gargalo custando tempo, dinheiro ou clientes, vamos construir uma **Força de Trabalho Digital** para resolvê-lo.
+
+**Pronto para automatizar? Fale diretamente comigo:**
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Vamos_Conversar-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5534999602073?text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es) 
+[![Workana](https://img.shields.io/badge/Workana-Me_Contrate-0096D6?style=for-the-badge&logoColor=white)](https://www.workana.com/freelancer/f09407642ce3ac82e2dceeba95ef3509)
+[![Upwork](https://img.shields.io/badge/Upwork-Me_Contrate-14a800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01e86eb238637e8561?mp_source=share)
+
+*"Eu programo com o contexto de uma Diretora e a curiosidade de uma Maker."*
