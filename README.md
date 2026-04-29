@@ -99,4 +99,3 @@ Este projeto é profundamente pessoal. Como uma **Engenheira Autista e TDAH**, u
 ⚠️ **Aviso Ético:** Este projeto possui fins educacionais e de suporte, baseado em técnicas comprovadas de Terapia Cognitivo-Comportamental. Ele **não substitui** acompanhamento médico ou terapia profissional.
 
 *Desenvolvido por [Cristalwolf](https://github.com/cristalwolfff) // Business Technologist & AI Engineer*
-
